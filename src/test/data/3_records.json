@@ -1,0 +1,171 @@
+[
+  {
+    "cve": {
+      "id": "CVE-2011-3970",
+      "description": "libxslt, as used in Google Chrome before 17.0.963.46, allows remote attackers to cause a denial of service (out-of-bounds read) via unspecified vectors.",
+      "baseScore": 4.3,
+      "cvssVersion": "2.0",
+      "impactScore": 2.9,
+      "exploitabilityScore": 8.6,
+      "publishedDate": "2012-02-09T04:10:00Z",
+      "lastModifiedDate": "2020-04-16T17:32:00Z",
+      "cvssV2Score": {
+        "baseScore": 4.3,
+        "baseSeverity": "MEDIUM",
+        "exploitabilityScore": 8.6,
+        "impactScore": 2.9
+      },
+      "cvssV3Score": {},
+      "references": [
+        {
+          "url": "http://code.google.com/p/chromium/issues/detail?id=110277",
+          "tags": [
+            "Exploit",
+            "Vendor Advisory"
+          ]
+        },
+        {
+          "url": "http://googlechromereleases.blogspot.com/2012/02/stable-channel-update.html",
+          "tags": [
+            "Release Notes",
+            "Vendor Advisory"
+          ]
+        },
+        {
+          "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A14818",
+          "tags": [
+            "Third Party Advisory"
+          ]
+        },
+        {
+          "url": "https://www.suse.com/support/update/announcement/2013/suse-su-20131654-1.html",
+          "tags": [
+            "Third Party Advisory"
+          ]
+        },
+        {
+          "url": "https://www.suse.com/support/update/announcement/2013/suse-su-20131656-1.html",
+          "tags": [
+            "Third Party Advisory"
+          ]
+        }
+      ],
+      "severity": "MEDIUM"
+    }
+  },
+  {
+    "cve": {
+      "id": "CVE-2012-0724",
+      "description": "Adobe Flash Player before 11.2.202.229 in Google Chrome before 18.0.1025.151 allow attackers to cause a denial of service (memory corruption) or possibly have unspecified other impact via unknown vectors, a different vulnerability than CVE-2012-0725.",
+      "baseScore": 9.3,
+      "cvssVersion": "2.0",
+      "impactScore": 10.0,
+      "exploitabilityScore": 8.6,
+      "publishedDate": "2012-04-06T20:55:00Z",
+      "lastModifiedDate": "2020-04-14T13:34:00Z",
+      "cvssV2Score": {
+        "baseScore": 9.3,
+        "baseSeverity": "HIGH",
+        "exploitabilityScore": 8.6,
+        "impactScore": 10.0
+      },
+      "cvssV3Score": {},
+      "references": [
+        {
+          "url": "http://googlechromereleases.blogspot.com/2012/04/stable-and-beta-channel-updates.html",
+          "tags": [
+            "Vendor Advisory"
+          ]
+        },
+        {
+          "url": "http://secunia.com/advisories/48732",
+          "tags": [
+            "Third Party Advisory"
+          ]
+        },
+        {
+          "url": "http://www.adobe.com/support/security/bulletins/apsb12-07.html",
+          "tags": [
+            "Vendor Advisory"
+          ]
+        },
+        {
+          "url": "http://www.xerox.com/download/security/security-bulletin/16287-4d6b7b0c81f7b/cert_XRX13-003_v1.0.pdf",
+          "tags": [
+            "Third Party Advisory"
+          ]
+        },
+        {
+          "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/74638",
+          "tags": [
+            "Third Party Advisory"
+          ]
+        },
+        {
+          "url": "https://oval.cisecurity.org/repository/search/definition/oval%3Aorg.mitre.oval%3Adef%3A15533",
+          "tags": [
+            "Third Party Advisory"
+          ]
+        }
+      ],
+      "severity": "HIGH"
+    }
+  },
+
+      {
+        "cve": {
+            "id": "CVE-2017-8731",
+            "description": "Microsoft Edge in Microsoft Windows 10 1607 and Windows Server 2016 allows an attacker to execute arbitrary code in the context of the current user, due to the way that Microsoft Edge accesses objects in memory, aka \"Microsoft Edge Memory Corruption Vulnerability\". This CVE ID is unique from CVE-2017-8734, CVE-2017-8751, and CVE-2017-11766.",
+            "baseScore": 7.5,
+            "cvssVersion": "3.0",
+            "impactScore": 5.9,
+            "exploitabilityScore": 1.6,
+            "publishedDate": "2017-09-13T01:29:00Z",
+            "lastModifiedDate": "2019-05-03T12:24:00Z",
+            "cvssV2Score": {
+                "baseScore": 7.6,
+                "baseSeverity": "HIGH",
+                "exploitabilityScore": 4.9,
+                "impactScore": 10.0
+            },
+            "cvssV3Score": {
+                "baseScore": 7.5,
+                "baseSeverity": "HIGH",
+                "exploitabilityScore": 1.6,
+                "impactScore": 5.9
+            },
+            "references": [
+                {
+                    "url": "http://www.securityfocus.com/bid/100735",
+                    "tags": [
+                        "Third Party Advisory",
+                        "VDB Entry"
+                    ]
+                },
+                {
+                    "url": "http://www.securitytracker.com/id/1039326",
+                    "tags": [
+                        "Third Party Advisory",
+                        "VDB Entry"
+                    ]
+                },
+                {
+                    "url": "https://portal.msrc.microsoft.com/en-US/security-guidance/advisory/CVE-2017-8731",
+                    "tags": [
+                        "Patch",
+                        "Vendor Advisory"
+                    ]
+                },
+                {
+                    "url": "https://www.exploit-db.com/exploits/42758/",
+                    "tags": [
+                        "Exploit",
+                        "Third Party Advisory",
+                        "VDB Entry"
+                    ]
+                }
+            ],
+            "severity": "HIGH"
+        }
+    }
+]
